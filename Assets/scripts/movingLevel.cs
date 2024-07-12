@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class movingLevel : MonoBehaviour
 {
-
-    public Material roadMat;
-    float offset_x = 1;
+    Renderer rend;
+    float offset_x = 0;
     public float speedBG;
+    
+    /*
     Rigidbody rb;
 
 
@@ -16,42 +17,46 @@ public class movingLevel : MonoBehaviour
     public float maxSpeedScroll;
 
     public float speedProgression = 0.0125f;
+    */
+
+
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        //rb = GetComponent<Rigidbody>();
+        rend = GetComponent<Renderer>();
     
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        
+
+        
+        //endless with material
+        offset_x += speedBG * -1 * Time.deltaTime;
+
+        rend.material.SetTextureOffset("_BaseMap", new Vector2(offset_x, 0));
+    }
+
+    /*
+    public void endlessRoadRigidbody()
+    {   
         currentSpeedScroll += speedProgression;
         speedScroll = currentSpeedScroll;
 
-        //transform.position = new Vector3(0, 0, speed * Time.fixedDeltaTime);
-
         rb.velocity = new Vector3(0, 0, speedScroll * -1 * Time.deltaTime);
-
-        //transform.position += new Vector3(0, 0, speed * Time.fixedDeltaTime);
         
 
         if(currentSpeedScroll >= maxSpeedScroll){
             currentSpeedScroll = maxSpeedScroll;
+            
         }
 
-        Debug.Log(currentSpeedScroll);
-
-        offset_x += currentSpeedScroll * Time.deltaTime;
-
-        endlessRoad();
-    }
+        //Debug.Log(currentSpeedScroll);
+        
+    } */
 
 
-    public void endlessRoad()
-    {   
-
-
-        roadMat.SetTextureOffset("_MainTex", new Vector2(offset_x, 0));
-    }
 }

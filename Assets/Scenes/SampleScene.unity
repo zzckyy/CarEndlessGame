@@ -477,11 +477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f5d2c5bb71a87409dbe4d711dd60a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roadMat: {fileID: 2100000, guid: 8f1f2085217cc054893940f172c21bcc, type: 2}
-  speedBG: 0
-  currentSpeedScroll: 50
-  maxSpeedScroll: 600
-  speedProgression: 0.0125
+  speedBG: 3
 --- !u!54 &579505438
 Rigidbody:
   m_ObjectHideFlags: 0
