@@ -28,7 +28,7 @@ public class movingLevel : MonoBehaviour
 
         //transform.position = new Vector3(0, 0, speed * Time.fixedDeltaTime);
 
-        rb.velocity = new Vector3(0, 0, speedScroll * Time.deltaTime);
+        rb.velocity = new Vector3(0, 0, speedScroll * -1 * Time.deltaTime);
 
         //transform.position += new Vector3(0, 0, speed * Time.fixedDeltaTime);
         
