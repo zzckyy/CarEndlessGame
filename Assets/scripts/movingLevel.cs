@@ -5,6 +5,9 @@ using UnityEngine;
 public class movingLevel : MonoBehaviour
 {
 
+    public Material roadMat;
+    float offset_x = 1;
+    public float speedBG;
     Rigidbody rb;
 
 
@@ -38,5 +41,17 @@ public class movingLevel : MonoBehaviour
         }
 
         Debug.Log(currentSpeedScroll);
+
+        offset_x += currentSpeedScroll * Time.deltaTime;
+
+        endlessRoad();
+    }
+
+
+    public void endlessRoad()
+    {   
+
+
+        roadMat.SetTextureOffset("_MainTex", new Vector2(offset_x, 0));
     }
 }
