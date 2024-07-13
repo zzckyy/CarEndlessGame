@@ -7,6 +7,9 @@ public class movingLevel : MonoBehaviour
     Renderer rend;
     float offset_x = 0;
     public float speedBG;
+
+    float currentSpeed;
+    public float maxSpeed;
     
     /*
     Rigidbody rb;
@@ -32,12 +35,21 @@ public class movingLevel : MonoBehaviour
     void FixedUpdate()
     {
         
-
+        float scroll;
         
         //endless with material
-        offset_x += speedBG * -1 * Time.deltaTime;
+        scroll = offset_x += speedBG * -1 * Time.deltaTime;
 
-        rend.material.SetTextureOffset("_BaseMap", new Vector2(offset_x, 0));
+        speedBG += .02f * Time.deltaTime;
+
+        rend.material.SetTextureOffset("_BaseMap", new Vector2(scroll, 0));
+
+        if(speedBG >= maxSpeed){
+            speedBG = maxSpeed;
+            
+        }
+
+        Debug.Log(speedBG);
     }
 
     /*

@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class gameManager : MonoBehaviour
 {
     public Text scoreText;
+    public string textHUD;
 
     private float scoreVar = 1;
     private int currentScore;
@@ -24,7 +25,7 @@ public class gameManager : MonoBehaviour
 
         currentScore =  Convert.ToInt32(scoreVar);
 
-        scoreText.text = currentScore.ToString();
+        scoreText.text = textHUD + currentScore.ToString();
 
 
         Debug.Log(currentScore);
