@@ -28,6 +28,6 @@ public class gameManager : MonoBehaviour
         scoreText.text = textHUD + currentScore.ToString();
 
 
-        Debug.Log(currentScore);
+        //Debug.Log(currentScore);
     }
 }

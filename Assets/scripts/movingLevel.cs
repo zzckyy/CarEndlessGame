@@ -49,7 +49,7 @@ public class movingLevel : MonoBehaviour
             
         }
 
-        Debug.Log(speedBG);
+        //Debug.Log(speedBG);
     }
 
     /*
