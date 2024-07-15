@@ -41,7 +41,7 @@ public class sideSpawner : MonoBehaviour
         int objectList = Random.Range(0, objectModel.Length);
         int spawnList = Random.Range(0, spawnLoc.Length);
 
-        Debug.Log("hh");
+        //Debug.Log("hh");
 
         Instantiate(
                 objectModel[objectList],

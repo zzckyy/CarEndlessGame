@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1104088081875632463}
   m_Layer: 0
   m_Name: HouseKit2
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,6 +133,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7902026917494471993}
     m_Modifications:
+    - target: {fileID: 563339208491175685, guid: c09e49e4343265441a1ff7bc63f1f3f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 3466495606184892106, guid: c09e49e4343265441a1ff7bc63f1f3f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -188,6 +193,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: house3_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4274100556771495024, guid: c09e49e4343265441a1ff7bc63f1f3f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -207,6 +217,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7902026917494471993}
     m_Modifications:
+    - target: {fileID: 563339208491175685, guid: c09e49e4343265441a1ff7bc63f1f3f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 3466495606184892106, guid: c09e49e4343265441a1ff7bc63f1f3f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -262,6 +277,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: house3_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4274100556771495024, guid: c09e49e4343265441a1ff7bc63f1f3f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -281,10 +301,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7902026917494471993}
     m_Modifications:
+    - target: {fileID: 5378016638375548866, guid: b2018e7ef32d62742af1844888ee7ba7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 8620169148927166622, guid: b2018e7ef32d62742af1844888ee7ba7,
         type: 3}
       propertyPath: m_Name
       value: house3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620169148927166622, guid: b2018e7ef32d62742af1844888ee7ba7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 9001339440859550244, guid: b2018e7ef32d62742af1844888ee7ba7,
         type: 3}
@@ -355,10 +385,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7902026917494471993}
     m_Modifications:
+    - target: {fileID: 5378016638375548866, guid: b2018e7ef32d62742af1844888ee7ba7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 8620169148927166622, guid: b2018e7ef32d62742af1844888ee7ba7,
         type: 3}
       propertyPath: m_Name
       value: house3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620169148927166622, guid: b2018e7ef32d62742af1844888ee7ba7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 9001339440859550244, guid: b2018e7ef32d62742af1844888ee7ba7,
         type: 3}
@@ -429,6 +469,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7902026917494471993}
     m_Modifications:
+    - target: {fileID: 3429296722634086593, guid: d14c13179e03332458735bf652200110,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 5132994436417884787, guid: d14c13179e03332458735bf652200110,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -484,6 +529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: house1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5510118487706486985, guid: d14c13179e03332458735bf652200110,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -503,6 +553,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7902026917494471993}
     m_Modifications:
+    - target: {fileID: 3429296722634086593, guid: d14c13179e03332458735bf652200110,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 5132994436417884787, guid: d14c13179e03332458735bf652200110,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -557,6 +612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: house1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510118487706486985, guid: d14c13179e03332458735bf652200110,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

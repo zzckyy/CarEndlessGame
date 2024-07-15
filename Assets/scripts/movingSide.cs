@@ -19,6 +19,6 @@ public class movingSide : MonoBehaviour
 
         transform.position += new Vector3(0, 0, speed);
 
-        Destroy(gameObject, 5f);
+        Destroy(gameObject, 3f);
     }
 }
