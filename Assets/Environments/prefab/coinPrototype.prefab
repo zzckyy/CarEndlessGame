@@ -131,5 +131,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 153d3d0361b8fba4fbf1573725c827eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _coinSys: {fileID: 9158256017409387609, guid: d54a33ab45ecb774d8dfed5577b94145,
+  _coinSys: {fileID: 4554630914967276766, guid: 04a28a7e84d24764895a444fd973018c,
     type: 3}

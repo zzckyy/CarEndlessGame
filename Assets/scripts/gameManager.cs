@@ -12,8 +12,6 @@ public class gameManager : MonoBehaviour
     private float scoreVar = 1;
     private int currentScore;
 
-    public int coin;
-
     // Start is called before the first frame update
     void Start()
     {
