@@ -5,16 +5,10 @@ using UnityEngine;
 public class movingSide : MonoBehaviour
 {
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        float speed = 1f * -1;
+        float speed = 2f * -1;
         speed += Time.deltaTime;
 
         transform.position += new Vector3(0, 0, speed);

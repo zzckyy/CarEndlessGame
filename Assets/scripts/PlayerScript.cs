@@ -25,7 +25,12 @@ public class PlayerScript : MonoBehaviour
         _rb.velocity = new Vector3 (Input.GetAxis("Horizontal") * hSpeed, _rb.velocity.y * 0, Input.GetAxis("Vertical") * vSpeed);
 
 
-        if(Input.GetButtonDown("")){
+        
+    }
+
+    void Update()
+    {
+        if(Input.GetButtonDown("Fire3")){
             audioKlakson.PlayOneShot(clipKlakson);
         }
     }
