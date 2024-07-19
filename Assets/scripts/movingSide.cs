@@ -8,7 +8,7 @@ public class movingSide : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float speed = 2f * -1;
+        float speed = 1.7f * -1;
         speed += Time.deltaTime;
 
         transform.position += new Vector3(0, 0, speed);
