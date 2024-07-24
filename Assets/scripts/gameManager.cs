@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class gameManager : MonoBehaviour
 {
@@ -14,11 +15,15 @@ public class gameManager : MonoBehaviour
 
     public static bool isGameOver;
 
+    public GameObject gameOverPanel;
+
     // Start is called before the first frame update
     void Start()
     {
         isGameOver = false;
         Time.timeScale = 1f;
+
+        gameOverPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -43,6 +48,10 @@ public class gameManager : MonoBehaviour
 
     public void gameOver(){
         Time.timeScale = 0;
+        gameOverPanel.SetActive(true);
+    }
 
+    public void gantiScene(int sceneIndex){
+        SceneManager.LoadSceneAsync(sceneIndex);
     }
 }
