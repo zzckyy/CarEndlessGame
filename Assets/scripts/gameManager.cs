@@ -12,10 +12,13 @@ public class gameManager : MonoBehaviour
     private float scoreVar = 1;
     private int currentScore;
 
+    public static bool isGameOver;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        isGameOver = false;
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
@@ -29,5 +32,17 @@ public class gameManager : MonoBehaviour
 
 
         //Debug.Log(currentScore);
+        
+    }
+
+    void Update(){
+        if(isGameOver == true){
+            gameOver();
+        }
+    }
+
+    public void gameOver(){
+        Time.timeScale = 0;
+
     }
 }

@@ -15,4 +15,13 @@ public class obstacleScript : MonoBehaviour
     {
         
     }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            Debug.Log("game over");
+            gameManager.isGameOver = true;
+        }
+    }
 }
