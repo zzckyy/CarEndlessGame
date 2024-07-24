@@ -23,7 +23,7 @@ public class sideSpawner : MonoBehaviour
 
         
 
-        if (Input.GetButtonDown("Fire3")){
+       /* if (Input.GetButtonDown("Fire3")){
             Instantiate(
                 objectModel[objectList],
                 //new Vector3(Random.Range(min, max), transform.position.y, 0f)
@@ -31,7 +31,7 @@ public class sideSpawner : MonoBehaviour
                 objectModel[objectList].transform.rotation
             );
 
-        }
+        }*/
         
             
     }
