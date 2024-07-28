@@ -17,6 +17,10 @@ public class gameManager : MonoBehaviour
 
     public GameObject gameOverPanel;
 
+    public AudioSource _engineSound;
+    public AudioSource gmAudio;
+    public AudioClip _crash;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,13 +46,15 @@ public class gameManager : MonoBehaviour
 
     void Update(){
         if(isGameOver == true){
-            gameOver();
+            Invoke("gameOver", 0f);
+            gmAudio.PlayOneShot(_crash);
         }
     }
 
     public void gameOver(){
-        Time.timeScale = 0;
+        Time.timeScale = 0f;
         gameOverPanel.SetActive(true);
+        _engineSound.Pause();
     }
 
     public void gantiScene(int sceneIndex){
