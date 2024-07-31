@@ -14,12 +14,14 @@ public class fuelSystem : MonoBehaviour
     //menambah nilai ketika mendapat bensin
     public static float fuelPickupValue;
     public Slider fuelUI;
+    public GameObject LowFuelUI;
     public float bensinDecreaseRate;
 
     // Start is called before the first frame update
     void Start()
     {
         fuelValue = 100;
+        LowFuelUI.SetActive(false);
     }
 
     // Update is called once per frame
@@ -38,6 +40,13 @@ public class fuelSystem : MonoBehaviour
         }
         if(fuelValue >= 100){
             fuelValue = 100;
+        }
+
+        else if(fuelValue <= 25){
+            LowFuelUI.SetActive(true);
+        }
+        else{
+            LowFuelUI.SetActive(false);
         }
         
     }
