@@ -28,4 +28,8 @@ public class mainMenuScript : MonoBehaviour
         _mixer.SetFloat(targetMixer, Mathf.Log10(_volume)*20);
         PlayerPrefs.SetFloat("MusicVolume", _volume);
     }
+
+    public void waktuField(float variabelWaktu){
+        Time.timeScale = variabelWaktu;
+    }
 }

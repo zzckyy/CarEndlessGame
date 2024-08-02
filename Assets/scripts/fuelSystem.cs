@@ -13,9 +13,13 @@ public class fuelSystem : MonoBehaviour
 
     //menambah nilai ketika mendapat bensin
     public static float fuelPickupValue;
+    public float fuelPickupValueInspector;
     public Slider fuelUI;
     public GameObject LowFuelUI;
     public float bensinDecreaseRate;
+    public static float bensinKecepatan;
+
+    public float bensinKecepatanInspector;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +31,10 @@ public class fuelSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        bensinKecepatan = bensinKecepatanInspector;
+        fuelPickupValue = fuelPickupValueInspector;
+
         fuelValue -= bensinDecreaseRate * Time.deltaTime;
 
         //int fuelInt = Convert.ToInt32(fuelValue);
