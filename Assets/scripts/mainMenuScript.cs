@@ -20,6 +20,7 @@ public class mainMenuScript : MonoBehaviour
 
     public void keluarGame(){
         Application.Quit();
+        Debug.Log("game keluar");
     }
 
     public void volumeController(string targetMixer){
