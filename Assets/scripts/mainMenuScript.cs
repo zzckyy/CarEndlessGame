@@ -8,4 +8,8 @@ public class mainMenuScript : MonoBehaviour
     public void milihScene(int sceneIndex){
         SceneManager.LoadSceneAsync(sceneIndex);
     }
+
+    public void keluarGame(){
+        Application.Quit();
+    }
 }
