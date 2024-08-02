@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class obstacleScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float speedInspector;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        float speed = speedInspector * -1;
+        //speed += Time.deltaTime;
+
+        transform.position += new Vector3(0, 0, speed);
+
+        Destroy(gameObject, 8f);
     }
 
     void OnCollisionEnter(Collision collision)
