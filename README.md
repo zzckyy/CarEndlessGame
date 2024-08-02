@@ -2,8 +2,9 @@
 
 ## Feature To Do:
 *  Basic Mechanic
-*  Coin and Score System
-*  Procedural Environment, Coin Placing, and Obstacles
+*  Fuel and Score System
+*  Procedural Environment, Fuel Placing, and Obstacles
 *  Horn System
-*  Different Level Design
+*  Many Levels
+*  Fully Functional Main Menu
  
