@@ -46,8 +46,7 @@ public class gameManager : MonoBehaviour
 
     void Update(){
         if(isGameOver == true){
-            Invoke("gameOver", 0f);
-            gmAudio.PlayOneShot(_crash);
+            gameOver();
         }
     }
 
