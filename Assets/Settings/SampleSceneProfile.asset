@@ -1,5 +1,85 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8227910001812843607
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4265a041954897941afec871c608473b, type: 3}
+  m_Name: Crt
+  m_EditorClassIdentifier: 
+  active: 1
+  <displayName>k__BackingField: 
+  scanlinesWeight:
+    m_OverrideState: 1
+    m_Value: 0
+  noiseWeight:
+    m_OverrideState: 1
+    m_Value: 0
+  screenBendX:
+    m_OverrideState: 0
+    m_Value: 0
+  screenBendY:
+    m_OverrideState: 0
+    m_Value: 1000
+  vignetteAmount:
+    m_OverrideState: 0
+    m_Value: 0
+  vignetteSize:
+    m_OverrideState: 1
+    m_Value: 0
+  vignetteRounding:
+    m_OverrideState: 0
+    m_Value: 2
+  vignetteSmoothing:
+    m_OverrideState: 0
+    m_Value: 1
+  scanlinesDensity:
+    m_OverrideState: 0
+    m_Value: 200
+  scanlinesSpeed:
+    m_OverrideState: 0
+    m_Value: -10
+  noiseAmount:
+    m_OverrideState: 0
+    m_Value: 250
+  chromaticRed:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  chromaticGreen:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  chromaticBlue:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0}
+  grilleOpacity:
+    m_OverrideState: 0
+    m_Value: 0.4
+  grilleCounterOpacity:
+    m_OverrideState: 0
+    m_Value: 0.2
+  grilleResolution:
+    m_OverrideState: 0
+    m_Value: 360
+  grilleCounterResolution:
+    m_OverrideState: 0
+    m_Value: 540
+  grilleUvRotation:
+    m_OverrideState: 0
+    m_Value: 90
+  grilleBrightness:
+    m_OverrideState: 0
+    m_Value: 15
+  grilleUvMidPoint:
+    m_OverrideState: 0
+    m_Value: 0.5
+  grilleShift:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1}
 --- !u!114 &-7980549235171308575
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -284,6 +364,29 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+--- !u!114 &-3154496112271002166
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35a1bd58dd7548198609eabd8ae2bb7d, type: 3}
+  m_Name: Pixelation
+  m_EditorClassIdentifier: 
+  active: 1
+  <displayName>k__BackingField: 
+  widthPixelation:
+    m_OverrideState: 1
+    m_Value: 639.68
+  heightPixelation:
+    m_OverrideState: 1
+    m_Value: 512
+  colorPrecision:
+    m_OverrideState: 1
+    m_Value: 40.24
 --- !u!114 &-2600028855952243225
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -367,7 +470,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1
   neutralHDRRangeReductionMode:
     m_OverrideState: 0
     m_Value: 2
