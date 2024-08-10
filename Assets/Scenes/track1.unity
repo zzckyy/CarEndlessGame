@@ -3437,7 +3437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1443342762}
-  textHUD: 'Point: '
+  textHUD: 
   gameOverPanel: {fileID: 1563827112}
   _engineSound: {fileID: 460560168}
   gmAudio: {fileID: 1661220690}
@@ -4861,7 +4861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.81960785, g: 0.5245292, b: 0.074509785, a: 1}
+  m_Color: {r: 0.81960785, g: 0.5254902, b: 0.07450981, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4993,8 +4993,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 67.099976, y: -26.880005}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 73.54999, y: -57.675537}
+  m_SizeDelta: {x: 147.1, y: 115.351}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1443342762
 MonoBehaviour:
@@ -5009,7 +5009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8490566, g: 0.7197904, b: 0.41251338, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5017,14 +5017,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
+    m_Font: {fileID: 12800000, guid: d37ab7dc8183cf8469c733edefb832a4, type: 3}
+    m_FontSize: 72
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 20
+    m_MaxSize: 72
     m_Alignment: 4
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
@@ -7322,6 +7322,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 590499857699528582, guid: d54a33ab45ecb774d8dfed5577b94145,
+        type: 3}
+      propertyPath: textHUD
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 590499857699528582, guid: d54a33ab45ecb774d8dfed5577b94145,
         type: 3}
       propertyPath: scoreText
