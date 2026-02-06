@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: b076d558d0a5ccc4db868fac7577f0fa, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: dcf333824e76e4b5d97323b6c5df6123, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.04981987, g: 0.24759565, b: 0.6175084, a: 1}
+  m_IndirectSpecularColor: {r: 0.114572346, g: 0.33009064, b: 0.71202105, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -575,7 +575,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.8784314, g: 0.83137256, b: 0.4, a: 1}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2107,6 +2107,9 @@ MonoBehaviour:
   scoreText: {fileID: 1443342762}
   textHUD: 'Point: '
   gameOverPanel: {fileID: 1563827112}
+  _engineSound: {fileID: 0}
+  gmAudio: {fileID: 0}
+  _crash: {fileID: 0}
 --- !u!4 &923335780
 Transform:
   m_ObjectHideFlags: 0
